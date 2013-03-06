@@ -1,4 +1,6 @@
-# [Plan B HTML5 Boilerplate](http://www.planb.com.br)
+# Plan B HTML5 Boilerplate
 
-HTML5 Boilerplate é um template front-end profissional que utilizamos na Plan B, para atender nossos clientes com
-mais agilidade.
+<br/>
+
+
+Este é o **HTML5 Boilerplate** que utilizamos na **Plan B** para criar projetos com mais agilidade. Com ele você pode desenvolver sites e web apps de forma rápida e padronizada. Pronto, agora é só começar!
