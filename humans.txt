@@ -1,0 +1,13 @@
+# TEAM
+
+    <name> -- <role> -- <twitter>
+
+# THANKS
+
+    <name>
+
+# SITE
+
+	Language: Portuguese Brazil
+	Doctype: HTML5
+	IDE: Sublime Text, FileZilla, Photoshop
