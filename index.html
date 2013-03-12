@@ -1,5 +1,9 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6" xmlns:fb="http://www.facebook.com/2008/fbml> <![endif]-->
+<!--[if lt IE 7]>
+    <script>
+        window.location = "/ie.html";
+    </script>
+<![endif]-->
 <!--[if IE 7 ]>    <html lang="en" class="no-js ie7" xmlns:fb="http://www.facebook.com/2008/fbml> <![endif]-->
 <!--[if IE 8 ]>    <html lang="en" class="no-js ie8" xmlns:fb="http://www.facebook.com/2008/fbml> <![endif]-->
 <!--[if IE 9 ]>    <html lang="en" class="no-js ie9" xmlns:fb="http://www.facebook.com/2008/fbml> <![endif]-->
@@ -7,7 +11,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
+        <title>Título do site</title>
         <meta name="keywords" content="algumas, palavrinhas, sobre, projeto">
         <meta name="description" content="Tente não ultrapassar 150 caracteres na descrição.">
         <meta name="author" content="Plan B Comunicação">
@@ -25,19 +29,28 @@
         <meta property="fb:admins" content="ID_DO_USUARIO">
 
         <link rel="shortcut icon" href="favicon.ico">
+        
+        <link rel="apple-touch-icon-precomposed" href="apple-touch-icon.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144-precomposed.png">
+
+        <link href='http://fonts.googleapis.com/css?family=Electrolize' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-        <![endif]-->
 
         <header>
+            <span class="nome-area">header</span>
             <div class="container">
                 <hgroup>
-                    <h1>Boilerplate - Plan B</h1>
-                    <h2>HTML5</h2>
+                    <h1>
+                        <img src="http://planb.com.br/wp-content/themes/shaken-grid-premium/images/planb.jpg" alt="Logo Plan B">
+                    </h1>
+                    <h2>Bem-vindo ao Boilerplate da Plan B!</h2>
                 </hgroup>
                         
                 <nav>
@@ -67,47 +80,53 @@
             </div>
         </header>
         
-        <article role="main">
-            <section>
-                <div>
-                    <h1>Não há problema criar mais de um H1 na página</h1>
-                </div>
-
-                <aside>
-                    <p>Algumas coisas no lado da página.</p>
-                    <figure>
-                        <img src="http://planb.com.br/wp-content/themes/shaken-grid-premium/images/planb.jpg" alt="Boneco herói">
-                        <figcaption>Logo da Plan B</figcaption>
-                    </figure>
-                </aside>
-            </section>
-        </article>
+        <div role="main" class="main">
+            <span class="nome-area">main</span>
+            <article class="container">
+                <section>
+                    <div>
+                        <h1>Não há problema criar mais de um H1 na página</h1>
+                    </div>
+            
+                    <aside>
+                        <p>Algumas coisas ao lado da página.</p>
+                        <figure>
+                            <img src="http://planb.com.br/wp-content/themes/shaken-grid-premium/images/planb.jpg" alt="Logo Plan B">
+                            <figcaption>Logo da Plan B</figcaption>
+                        </figure>
+                    </aside>
+                </section>
+            </article>
+        </div>
 
         <footer>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="home.html" title="Home">
-                            Home
-                        </a>
-                    </li>
-                    <li>
-                        <a href="info.html" title="Info">
-                            Info
-                        </a>
-                    </li>
-                    <li>
-                        <a href="dados.html" title="Dados">
-                            Dados
-                        </a>
-                    </li>
-                    <li>
-                        <a href="contato.html" title="Contato">
-                            Contato
-                        </a>
-                    </li>
-                </ul>
-            </nav>
+            <span class="nome-area">footer</span>
+            <div class="container">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="home.html" title="Home">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="info.html" title="Info">
+                                Info
+                            </a>
+                        </li>
+                        <li>
+                            <a href="dados.html" title="Dados">
+                                Dados
+                            </a>
+                        </li>
+                        <li>
+                            <a href="contato.html" title="Contato">
+                                Contato
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </footer>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
