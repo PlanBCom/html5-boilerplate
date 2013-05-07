@@ -1,0 +1,10 @@
+<!-- Facebook Open Graph -->
+<meta property="og:title" content="Título do site">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Nome do Site">
+<meta property="og:description" content="Tente não ultrapassar 300 caracteres na descrição para o facebook, 225 para LinkedIn e 200 para Google Plus.">
+<meta property="og:url" content="http://urlprojeto.com">
+<meta property="og:image" content="http://urlprojeto.com/imagem.jpg">
+
+<!-- Vincular essa página a um perfil do facebook -->
+<meta property="fb:admins" content="ID_DO_USUARIO">
