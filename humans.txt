@@ -8,6 +8,6 @@
 
 # SITE
 
-	Language: Portuguese Brazil
-	Doctype: HTML5
-	IDE: Sublime Text, FileZilla, Photoshop
+    Language: Portuguese Brazil
+    Doctype: HTML5
+    IDE: Sublime Text, FileZilla, Photoshop
