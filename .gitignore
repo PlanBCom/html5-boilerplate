@@ -1,3 +1,4 @@
 *.DS_Store
 *.exe
 .sass-cache
+assets/css/main.css
