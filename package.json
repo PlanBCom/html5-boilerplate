@@ -1,0 +1,20 @@
+{
+  "name": "boilerplate-revista-conhecer-app",
+  "version": "1.0.0",
+  "description": "Boilerplate que contem a estrutura inicial necessaria para criar mais uma edição da Revista Conhecer versão App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.planb.com.br:petrobras/boilerplate-revista-conhecer-app.git"
+  },
+  "author": "Plan B Comunicação",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.9.1",
+    "gulp": "^3.9.0",
+    "gulp-ruby-sass": "^1.4.0"
+  }
+}

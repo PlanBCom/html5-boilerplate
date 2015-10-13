@@ -1,3 +1,4 @@
 *.DS_Store
 *.exe
 .sass-cache
+node_modules/
